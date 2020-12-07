@@ -35,7 +35,7 @@
     "release": "git add . && standard-version -a",
     "postrelease": "concurrently yarn:release:*",
     "release:github": "conventional-github-releaser -p angular",
-    "release:tags": "git push --follow-tags origin master",
+    "release:tags": "git push --follow-tags origin main",
     "storybook": "start-storybook -p 6006"
   },
   "browserslist": {

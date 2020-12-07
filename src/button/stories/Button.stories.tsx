@@ -3,7 +3,7 @@ import React from "react";
 import { Story, Meta } from "@storybook/react/types-6-0";
 
 import "./button.css";
-import { Button, ButtonProps } from "../index";
+import { Button, ButtonProps } from "../../index";
 
 export default {
   title: "Button",

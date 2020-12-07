@@ -3,7 +3,7 @@
     "target": "es5",
     "module": "esnext",
     "lib": ["dom", "esnext", "dom.iterable"],
-    "types": ["node"],
+    "types": ["node", "jest", "@testing-library/jest-dom"],
     "allowJs": true,
     "jsx": "react-jsx",
     "strict": true,

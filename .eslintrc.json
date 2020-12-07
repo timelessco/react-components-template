@@ -9,6 +9,13 @@
     "prettier/@typescript-eslint"
   ],
   "rules": {
-    "no-console": "off"
+    "no-console": "off",
+    "testing-library/prefer-explicit-assert": ["error"],
+    "testing-library/consistent-data-testid": [
+      2,
+      {
+        "testIdPattern": "^testid(-.*\\w)?$"
+      }
+    ]
   }
 }

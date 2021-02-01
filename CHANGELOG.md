@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file. See
 [standard-version](https://github.com/conventional-changelog/standard-version)
 for commit guidelines.
 
+### [1.1.1](https://github.com/timelessco/react-components-template/compare/v1.1.0...v1.1.1) (2021-02-01)
+
+### Docs
+
+- **contributors:** 📝 add project contributors
+  ([48a1457](https://github.com/timelessco/react-components-template/commit/48a1457408b872d0a9d053193a0790670a040bf3))
+- add [@anuraghazra](https://github.com/anuraghazra) as a contributor
+  ([8a846e1](https://github.com/timelessco/react-components-template/commit/8a846e1299bcbec702b9cfddc5d6fefa12623aa9))
+- add [@navin-moorthy](https://github.com/navin-moorthy) as a contributor
+  ([16175ea](https://github.com/timelessco/react-components-template/commit/16175eabe2163d03ea64481fbc537a16c4d1642f))
+
 ## [1.1.0](https://github.com/timelessco/react-components-template/compare/v1.0.0...v1.1.0) (2021-02-01)
 
 ### Features

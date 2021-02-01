@@ -1,19 +1,10 @@
-# React Typescript Template
+# React Components Template
 
-React Typescript Project Boilerplate
+React Components Project Boilerplate
 
 ## Get Started
 
 `yarn`
-
-## Eslint
-
-> Uses **Create React App** configs
-
-## Prettier
-
-> Uses in conjuction with Eslint with `eslint-plugin-prettier` &
-> `eslint-config-prettier`
 
 ## Storybook
 
@@ -46,6 +37,31 @@ React Typescript Project Boilerplate
 > [docs](https://github.com/conventional-changelog/releaser-tools/tree/master/packages/conventional-github-releaser#setup-token-for-cli)
 > and export to the CLI env like
 > `export CONVENTIONAL_GITHUB_RELEASER_TOKEN=xxxx`
+
+## Eslint
+
+> Extend **react-app** configs & **react-app/jest** configs
+
+> Check for the linting errors
+
+`yarn lint`
+
+> Check & automatically fix the linting errors
+
+`yarn lint:fix`
+
+## Prettier
+
+> Used in conjuction with Eslint with `eslint-plugin-prettier` &
+> `eslint-config-prettier`
+
+> Format the workspace files
+
+`yarn format`
+
+> Format the `package.json` file
+
+`yarn format:package`
 
 ## Commit
 

@@ -1,8 +1,8 @@
 import * as React from "react";
-import { Button } from "../Button";
-
-import { configureAxe } from "jest-axe";
 import { render, screen } from "@testing-library/react";
+import { configureAxe } from "jest-axe";
+
+import { Button } from "../Button";
 
 const axe = configureAxe({
   rules: {

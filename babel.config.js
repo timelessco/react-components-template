@@ -11,18 +11,24 @@ module.exports = function (api) {
       "@babel/env",
       {
         modules: isCommonJS ? "commonjs" : false,
-        targets: {
-          esmodules: isESM ? true : undefined,
-        },
+        targets: { esmodules: isESM ? true : undefined },
       },
     ],
+    ["@babel/preset-react", { runtime: "automatic" }],
     "@babel/preset-typescript",
-    "@babel/preset-react",
   ];
 
   const plugins = [
-    "@chakra-ui/babel-plugin",
-    "@babel/plugin-proposal-class-properties",
+    ["@babel/plugin-proposal-class-properties", { loose: true }],
+    ["@babel/plugin-proposal-logical-assignment-operators", { loose: true }],
+    ["@babel/plugin-proposal-private-property-in-object", { loose: true }],
+    ["@babel/plugin-proposal-private-methods", { loose: true }],
+    isBuild
+      ? [
+          "babel-plugin-jsx-remove-data-test-id",
+          { attributes: ["data-testid"] },
+        ]
+      : {},
   ];
 
   return {
@@ -33,6 +39,6 @@ module.exports = function (api) {
         presets: [["@babel/env", { targets: { node: "current" } }]],
       },
     },
-    ignore: isBuild ? ["**/*/stories"] : [],
+    ignore: isBuild ? ["**/*/stories", "**/__tests__"] : [],
   };
 };

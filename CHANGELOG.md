@@ -1,3 +1,27 @@
+## [2.0.0](https://github.com/timelessco/react-components-template/compare/v1.1.1...v2.0.0) (2021-09-22)
+
+
+### Documentation Changes
+
+* add [@anuraghazra](https://github.com/anuraghazra) as a contributor ([8a846e1](https://github.com/timelessco/react-components-template/commit/8a846e1299bcbec702b9cfddc5d6fefa12623aa9))
+* add [@navin-moorthy](https://github.com/navin-moorthy) as a contributor ([16175ea](https://github.com/timelessco/react-components-template/commit/16175eabe2163d03ea64481fbc537a16c4d1642f))
+* **contributors:** 📝  add project contributors ([48a1457](https://github.com/timelessco/react-components-template/commit/48a1457408b872d0a9d053193a0790670a040bf3))
+
+
+### Maintanance Updates
+
+* **release:** 1.1.1 ([7e0749f](https://github.com/timelessco/react-components-template/commit/7e0749fba28b1eae4804dc26199047cad76db7e1))
+
+
+### Build Updates
+
+* **release:** 👷 update release commit msg ([0d56943](https://github.com/timelessco/react-components-template/commit/0d56943485b20d6197eebdbdffc7bf36b60b6ba6))
+
+
+### Feature Updates
+
+* **release:** ✨ add new release pipeline ([1568020](https://github.com/timelessco/react-components-template/commit/156802007247c038fe73e006873e25c6d4246ba4))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See

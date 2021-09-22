@@ -29,14 +29,7 @@ React Components Project Boilerplate
 
 `yarn release`
 
-> **Note:** to release a package
-
-> For Github Release, we use
-> [conventional-github-releaser](https://github.com/conventional-changelog/releaser-tools/tree/master/packages/conventional-github-releaser).
-> Create a new Github Token as per the
-> [docs](https://github.com/conventional-changelog/releaser-tools/tree/master/packages/conventional-github-releaser#setup-token-for-cli)
-> and export to the CLI env like
-> `export CONVENTIONAL_GITHUB_RELEASER_TOKEN=xxxx`
+> **Note:** For more info: https://github.com/release-it/release-it
 
 ## Eslint
 

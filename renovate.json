@@ -1,6 +1,6 @@
 {
   "extends": [
-    "config:semanticCommits"
+    "config:base",
   ],
   "commitMessage": "{{{commitMessagePrefix}}} ⬆️ {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
   "packageRules": [

@@ -1,6 +1,6 @@
 {
   "extends": ["config:base"],
-  "commitMessage": "{{{commitMessagePrefix}}} ⬆️ {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
+  "commitMessageAction": "⬆️ update",
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],

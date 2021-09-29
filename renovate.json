@@ -1,5 +1,18 @@
 {
   "extends": [
-    "config:base"
+    "config:semanticCommits"
+  ],
+  "commitMessage": "{{{commitMessagePrefix}}} ⬆️ {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "prodDependencies (non-major)"
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "devDependencies (non-major)"
+    }
   ]
 }

@@ -5,12 +5,12 @@
     {
       "matchDepTypes": ["devDependencies"],
       "matchUpdateTypes": ["patch", "minor"],
-      "groupName": "prodDependencies (non-major)"
+      "groupName": "dev-dependencies (minor)"
     },
     {
       "matchDepTypes": ["dependencies"],
       "matchUpdateTypes": ["patch", "minor"],
-      "groupName": "devDependencies (non-major)"
+      "groupName": "prod-dependencies (minor)"
     }
   ]
 }

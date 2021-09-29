@@ -1,7 +1,5 @@
 {
-  "extends": [
-    "config:base",
-  ],
+  "extends": ["config:base"],
   "commitMessage": "{{{commitMessagePrefix}}} ⬆️ {{{commitMessageAction}}} {{{commitMessageTopic}}} {{{commitMessageExtra}}} {{{commitMessageSuffix}}}",
   "packageRules": [
     {

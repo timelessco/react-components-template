@@ -19,10 +19,9 @@ module.exports = function (api) {
   ];
 
   const plugins = [
-    ["@babel/plugin-proposal-class-properties", { loose: true }],
-    ["@babel/plugin-proposal-logical-assignment-operators", { loose: true }],
-    ["@babel/plugin-proposal-private-property-in-object", { loose: true }],
     ["@babel/plugin-proposal-private-methods", { loose: true }],
+    ["@babel/plugin-proposal-class-properties", { loose: true }],
+    ["@babel/plugin-proposal-private-property-in-object", { loose: true }],
     isBuild
       ? [
           "babel-plugin-jsx-remove-data-test-id",

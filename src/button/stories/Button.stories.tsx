@@ -1,9 +1,11 @@
-import * as React from "react";
-import { Meta, Story } from "@storybook/react";
+import { ComponentMeta, ComponentStoryObj } from "@storybook/react";
 
-import { Button, ButtonProps } from "../../index";
+import { Button } from "../../index";
 
 import "./button.css";
+
+type Meta = ComponentMeta<typeof Button>;
+type Story = ComponentStoryObj<typeof Button>;
 
 export default {
   title: "Button",
@@ -13,27 +15,41 @@ export default {
   },
 } as Meta;
 
-const Template: Story<ButtonProps> = args => <Button {...args} />;
-
-export const Primary = Template.bind({});
-Primary.args = {
-  primary: true,
-  label: "Button",
+export const Primary: Story = {
+  args: {
+    label: "Button",
+    primary: true,
+    size: "medium",
+  },
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  label: "Button",
+export const Secondary: Story = {
+  args: {
+    label: "Button",
+    size: "medium",
+  },
 };
 
-export const Large = Template.bind({});
-Large.args = {
-  size: "large",
-  label: "Button",
+export const Small: Story = {
+  args: {
+    label: "Button",
+    primary: true,
+    size: "small",
+  },
 };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: "small",
-  label: "Button",
+export const Medium: Story = {
+  args: {
+    label: "Button",
+    primary: true,
+    size: "medium",
+  },
+};
+
+export const Large: Story = {
+  args: {
+    label: "Button",
+    primary: true,
+    size: "large",
+  },
 };

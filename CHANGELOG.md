@@ -1,3 +1,21 @@
+## [3.0.0](https://github.com/timelessco/react-components-template/compare/v2.1.0...v3.0.0) (2021-11-29)
+
+
+### Maintanance Updates
+
+* **deps:** ⬆️ update dependency @types/react to v17.0.37 ([#48](https://github.com/timelessco/react-components-template/issues/48)) ([b7fc8ca](https://github.com/timelessco/react-components-template/commit/b7fc8ca4658f645baa5a6734642eb4113c418c2c))
+* **deps:** ⬆️ update dependency lint-staged to v12.1.2 ([#46](https://github.com/timelessco/react-components-template/issues/46)) ([f89994f](https://github.com/timelessco/react-components-template/commit/f89994fab4afbe7b97cc2425d6b80a53d02980cf))
+* **deps:** ⬆️ update dependency prettier to v2.5.0 ([#49](https://github.com/timelessco/react-components-template/issues/49)) ([bb0180b](https://github.com/timelessco/react-components-template/commit/bb0180bfba248d6fde8a34c456c377942c747b6f))
+* **deps:** ⬆️ update dev dependencies (minor) ([#44](https://github.com/timelessco/react-components-template/issues/44)) ([4a1ff83](https://github.com/timelessco/react-components-template/commit/4a1ff83085e05bc5959c8fc4e7501324c74b67ba))
+* **deps:** ⬆️ update dev dependencies (minor) ([#47](https://github.com/timelessco/react-components-template/issues/47)) ([d3e7ee2](https://github.com/timelessco/react-components-template/commit/d3e7ee2b648e412234b1c0bc1c70c0d67fd9811c))
+* **deps:** ⬆️ update dev dependencies (minor) to v6.4.0 ([#50](https://github.com/timelessco/react-components-template/issues/50)) ([51a206c](https://github.com/timelessco/react-components-template/commit/51a206c3b28a4b894e45ceeebaddfbcb750b88c5))
+* **deps:** pin dependency @release-it/conventional-changelog to 3.3.0 ([#45](https://github.com/timelessco/react-components-template/issues/45)) ([98c1472](https://github.com/timelessco/react-components-template/commit/98c1472c66860ea1c3dbde20f6163664340122f5))
+
+
+### Documentation Changes
+
+* **storybook:** 📝 update stories to csf 3 format ([#51](https://github.com/timelessco/react-components-template/issues/51)) ([3ef4e66](https://github.com/timelessco/react-components-template/commit/3ef4e66459ef0fbddf04a35f6b84cde2a93726de))
+
 ## [2.1.0](https://github.com/timelessco/react-components-template/compare/v2.0.0...v2.1.0) (2021-11-19)
 
 

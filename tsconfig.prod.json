@@ -1,5 +1,25 @@
 {
-  "extends": "./tsconfig.json",
-  "include": ["src"],
-  "exclude": ["**/*/stories", "**/*/__tests__"]
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "types": ["node", "jest", "@testing-library/jest-dom"],
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "declaration": true,
+    "declarationDir": "dist/types",
+    "importHelpers": true,
+    "sourceMap": true,
+    "include": ["src"],
+    "exclude": ["**/*/stories", "**/*/__tests__"]
+  }
 }
